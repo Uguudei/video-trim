@@ -127,3 +127,23 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Vscode ignore list
+*.code-workspace
+.vscode/settings.json
+
+# Ignore Pycharm project files
+# But include Pycharm project code styles
+.idea/**
+
+# Includes data files
+data/*/*
+data/**
+!data/README.md
+
+# PL/SQL file created when editing .sql
+*.~sql
+
+# Temprary Office file created when eding xlsx
+~$*.xlsx
+~$*.pptx
